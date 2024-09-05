@@ -26,7 +26,7 @@
 #'
 #' }
 #' @export
-theme_allen_minimal <- function(base_family="Assistant", base_size = 12.5,
+theme_allen_minimal <- function(base_family="Assistant", base_size = 10,
                                leg_pos = NULL, guide_in_plot = FALSE){
   if(guide_in_plot == TRUE && leg_pos == "right"){
 

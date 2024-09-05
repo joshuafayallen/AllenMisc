@@ -6,7 +6,7 @@
 \usage{
 theme_allen_minimal(
   base_family = "Assistant",
-  base_size = 12.5,
+  base_size = 10,
   leg_pos = NULL,
   guide_in_plot = FALSE
 )
