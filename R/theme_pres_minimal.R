@@ -30,6 +30,7 @@
 #'   theme_ipsum(grid="Y") +
 #'   theme(axis.text.y=element_blank())
 #' }
+#' @import ggplot2
 #' @export
 theme_pres_minimal <- function(base_family="Average", base_size = 18) {
 
@@ -148,4 +149,6 @@ update_geom_font_defaults <- function(family="Average", face="plain", size=3.5,
 #' @description `font_an` == "`Average`"
 #' @format length 1 character vector
 #' @export
-font_an <- "Average"
+#' 
+
+font_av <- "Average"

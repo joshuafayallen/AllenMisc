@@ -3,6 +3,7 @@
 \docType{data}
 \name{font_an}
 \alias{font_an}
+\alias{font_as}
 \title{Assistant font name R variable aliases}
 \format{
 length 1 character vector
@@ -12,7 +13,7 @@ length 1 character vector
 \usage{
 font_an
 
-font_an
+font_as
 }
 \description{
 \code{font_an} == "\code{Assistant}"

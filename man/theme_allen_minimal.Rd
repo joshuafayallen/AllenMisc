@@ -16,7 +16,7 @@ theme_allen_minimal(
 
 \item{leg_pos}{a character vector that can be set to left or right. Default is NULL}
 
-\item{guid_in_plot}{logical to move legend inside plot. Default is FALSE}
+\item{guide_in_plot}{logical to move legend inside plot. Default is FALSE}
 }
 \description{
 A \link{ggplot2} that fits my aesthic preferences

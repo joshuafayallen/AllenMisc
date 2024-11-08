@@ -9,8 +9,9 @@
 #'
 #' @md
 #' @param base_family,base_size base font family and size
-#' @param guid_in_plot logical to move legend inside plot. Default is FALSE
+#' @param guide_in_plot logical to move legend inside plot. Default is FALSE
 #' @param leg_pos a character vector that can be set to left or right. Default is NULL
+#' @import ggplot2
 #' @examples \dontrun{
 #' library(ggplot2)
 #' library(dplyr)
@@ -31,7 +32,7 @@ theme_allen_minimal <- function(base_family="Assistant", base_size = 10,
   if(guide_in_plot == TRUE && leg_pos == "right"){
 
   ggplot2::theme_minimal(base_family=base_family, base_size=base_size) +
-    theme(
+    ggplot2::theme(
       plot.title = ggplot2::element_text(
         # Font
         face = "bold", size = ggplot2::rel(1.285),
@@ -334,4 +335,4 @@ update_geom_font_defaults <- function(family="Assistant", face="plain", size=3.5
 #' @description `font_an` == "`Assistant`"
 #' @format length 1 character vector
 #' @export
-font_an <- "Assistant"
+font_as <- "Assistant"
