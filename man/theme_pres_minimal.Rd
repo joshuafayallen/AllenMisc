@@ -2,7 +2,7 @@
 % Please edit documentation in R/theme_pres_minimal.R
 \name{theme_pres_minimal}
 \alias{theme_pres_minimal}
-\title{A \link{ggplot2} theme that fits my aesthtic preferences}
+\title{A \link[ggplot2:ggplot2-package]{ggplot2::ggplot2} theme that fits my aesthtic preferences}
 \usage{
 theme_pres_minimal(base_family = "Average", base_size = 18)
 }
@@ -10,7 +10,7 @@ theme_pres_minimal(base_family = "Average", base_size = 18)
 \item{base_family, base_size}{base font family and size}
 }
 \description{
-A \link{ggplot2} theme that fits my aesthtic preferences
+A \link[ggplot2:ggplot2-package]{ggplot2::ggplot2} theme that fits my aesthtic preferences
 }
 \examples{
 \dontrun{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/theme_allen_minimal.R
 \name{theme_allen_minimal}
 \alias{theme_allen_minimal}
-\title{A \link{ggplot2} that fits my aesthic preferences}
+\title{A \link[ggplot2:ggplot2-package]{ggplot2::ggplot2} that fits my aesthic preferences}
 \usage{
 theme_allen_minimal(
   base_family = "Assistant",
@@ -19,7 +19,7 @@ theme_allen_minimal(
 \item{guide_in_plot}{logical to move legend inside plot. Default is FALSE}
 }
 \description{
-A \link{ggplot2} that fits my aesthic preferences
+A \link[ggplot2:ggplot2-package]{ggplot2::ggplot2} that fits my aesthic preferences
 }
 \section{Why Assistant?}{
 

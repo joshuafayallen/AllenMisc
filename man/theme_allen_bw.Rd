@@ -2,7 +2,7 @@
 % Please edit documentation in R/theme_allen_bw.R
 \name{theme_allen_bw}
 \alias{theme_allen_bw}
-\title{A precise & pristine \link{ggplot2} theme with opinionated defaults and an emphasis on typography}
+\title{A precise & pristine \link[ggplot2:ggplot2-package]{ggplot2::ggplot2} theme with opinionated defaults and an emphasis on typography}
 \usage{
 theme_allen_bw(
   base_family = "Assistant",
